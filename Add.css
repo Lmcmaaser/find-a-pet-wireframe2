@@ -58,7 +58,7 @@ fieldset {
   margin-left: 2px;
   margin-right: 2px;
   padding-top: 0.35em;
-  padding-bottom: 0.625em;
+  padding-bottom: 0.35em;
   padding-left: 0.75em;
   padding-right: 0.75em;
   border: 2px solid black;
@@ -71,7 +71,7 @@ label {
 input[type=text] {
   margin: 5px;
   padding: 5px;
-  width: 40%;
+  width: 50%;
   height: 35px;
   border: 2px solid black;
 }
@@ -98,17 +98,22 @@ p {
 }
 
 @media screen and (min-width: 460px) {
+  body {
+    flex-shrink: 3;
+  }
 
   h1, h3 {
-    margin: 10px;
-    color: black;
+    margin: 5px;
     text-align: right;
   }
 
+  h2 {
+    margin: 5px;
+  }
+
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     padding: 5px;
     background-color: grey;

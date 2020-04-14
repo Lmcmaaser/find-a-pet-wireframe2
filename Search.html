@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta class="viewport" content="width=device-width">
     <title>FindAPet</title>
+    <meta name="description" type="Page 2 of the wireframe for the app FindAPet">
     <link href="Search.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -28,11 +29,23 @@
           </li>
         </ul>
       </nav>
-      <div class='content'>
-        <p>Form for searching for an animal in the db</p>
-        <p>All, Type, Age</p>
-        <p>submit button</p>
-      </div>
+      <form class="form-group">
+        <fieldset>
+          <p>Search Form</p>
+          <p>Query set 1</p>
+          <button>All</button>
+        </fieldset>
+        <fieldset>
+          <p>Query set 2</p>
+          <label>Type</label>
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+          <label>Age</label>
+          <input type="text" placeholder="5"/>
+          <button>Search</button>
+        </fieldset>
+      </form>
     </main>
     <footer>
       <p>Created by: Lauren Maaser</p>
