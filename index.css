@@ -90,9 +90,25 @@ p {
 }
 
 @media screen and (min-width: 460px) {
-  body,
-  input,
-  textarea {
-    font-size: 1.1em;
+  
+  h1, h3 {
+    margin: 10px;
+    color: black;
+    text-align: right;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: grey;
+    text-align: center;
+  }
+
+  p {
+    display: inline-block;
+    margin: 5px;
   }
 }
